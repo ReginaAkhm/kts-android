@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
-            android:text="STRЛVЛ"
+            android:text="STRAVA"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:textStyle="bold" />

@@ -4,46 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+
     tools:context="com.kts_android.strava.MainActivity">
 
-
-    <RelativeLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navhostfragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:id="@+id/Welcome_image"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            android:layout_centerInParent="true"
-            app:srcCompat="@drawable/welcome_pict"
-            android:contentDescription="@string/welcome_pict"/>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/Login_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@id/Welcome_image"
-            android:layout_centerHorizontal="true"
-            android:backgroundTint="@color/white"
-            android:text="@string/login"
-            android:textColor="@color/black"
-            app:cornerRadius="10dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/Welcome_image"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-
-            android:text="@string/app_name"
-            android:textColor="@color/white"
-            android:textSize="50sp"
-            android:textStyle="bold" />
-    </RelativeLayout>
+        app:navGraph="@navigation/nav_graph"
+        app:defaultNavHost="true"
+        android:layout_height="match_parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

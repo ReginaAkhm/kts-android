@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Strings related to hello -->
     <string name="login">Вход</string>
     <string name="app_name">STRAVA</string>
     <string name="welcome_pict">welcome_pict</string>
+    <!-- Strings related to login -->
+    <string name="sign_in">ВОЙТИ</string>
+    <string name="login_text">почта</string>
+    <string name="password_text">пароль</string>
+    <!-- Strings related to main -->
+    <string name="main_blank_fragment">привет</string>
 </resources>

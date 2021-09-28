@@ -1,6 +1,12 @@
 <resources>
+    <!-- Strings related to hello -->
     <string name="app_name">STRAVA</string>
     <string name="login">Login</string>
     <string name="welcome_pict">welcome_pict</string>
-</resources>
-<!---->
+    <!-- Strings related to login -->
+    <string name="sign_in">SIGN IN</string>
+    <string name="login_text">e-mail</string>
+    <string name="password_text">password</string>
+    <!-- Strings related to main -->
+    <string name="main_blank_fragment">hello</string>
+</resources><!---->
